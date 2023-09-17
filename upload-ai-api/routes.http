@@ -1,0 +1,17 @@
+# @name get_all_prompts
+GET http://localhost:3333/prompts
+
+###
+
+# @name upload_video
+POST http://localhost:3333/videos
+
+###
+
+# @name create_transcription
+POST http://localhost:3333/videos/:videoId/transcription
+
+###
+
+# @name generate_ai_completion
+POST http://localhost:3333/ai/complete
